@@ -1,0 +1,11 @@
+{
+    "profile_menu": {
+        "profile":"Профиль",
+        "video":"Видео",
+        "audio":"Музыка",
+        "article":"Статьи",
+        "leterature":"Литература",
+        "image":"Изображения",
+        "message":"Сообщения"
+    }
+}

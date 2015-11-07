@@ -1,0 +1,882 @@
+/*MYNESSAGE*/
+
+.my_message_url {
+	margin:0px 0px;
+	overflow:hidden;
+        background:#e6e6e6;
+}
+
+.you_message {
+	height:100px;
+	cursor:pointer;
+}
+
+.you_message:hover {
+    background:#eee;
+}
+
+.user_info {
+	width:14%;
+	height:100px;
+	background:#000;
+	float:left;
+}
+
+.user_message {
+	width:86%;
+	height:100px;
+	float:right;
+}
+
+.user_status {
+	width:20px;
+	height:20px;
+	border-radius:10px;
+	background:#636363;
+	margin:5px;
+	position:relative;
+        float: left;
+}
+
+.user_category {
+	width:20px;
+	height:20px;
+	border-radius:10px;
+	background:#ff5300;
+	margin:0px 5px;
+	position:relative;
+        float: left;
+        clear: both;
+}
+
+.message_see {
+	width:20px;
+	height:20px;
+	border-radius:14px;
+	float:right;
+	margin:5px 5px 0px 0px;
+        background: #000;
+}
+
+.message_tr {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #fff;
+    margin:8px auto;
+}
+
+.message_lt {
+    width: 85%;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.message_list {
+	width:87%;
+	height:20px;
+	overflow:hidden;
+	background:#d4d4d4;
+	float: left;
+	padding:8px;
+        border-radius: 0px 3px 3px 0px;
+        padding-left: 13px;
+}
+
+.message_list_avatar {
+    height:36px;
+    width: 36px;
+    background: #333;
+    float: left;
+    border-radius: 3px 0px 0px 3px;
+    position: relative;
+    border-right: 3px solid #e6e6e6;
+}
+
+.message_list_avatar:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    border-left: 7px solid #e6e6e6;
+    top:11px;
+    left:39px;
+}
+
+.message_list p {
+        color:#222;
+	overflow: hidden;
+	margin:1px auto;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+        text-shadow: 1px 1px 0px rgba(255,255,255,.5);
+        font-size: 15px;
+        font-family: verdana,arial;
+}
+
+.message_information {
+	clear:both;
+	width:75%;
+	min-height:20px;
+	margin:5px auto 0px auto;
+}
+
+.users_nicknames{
+	color:#fff;
+	padding:3px;
+        //height:18px;
+	font-size:12px;
+        background: #000;
+        overflow: hidden;
+        opacity: 0.7;
+}
+
+.message_information p{
+	float:right;
+	font-size:11px;
+	color:#585858;
+        padding: 3px;
+        float: right;
+}
+
+.message_information p, .users_nicknames p {
+	margin:0px;
+        white-space: nowrap;
+	text-overflow: ellipsis;
+        overflow:hidden;
+}
+
+.re_friend,.add_friend {
+    cursor: pointer;
+}
+
+.add_friend:hover {
+    text-decoration: underline;
+}
+
+.re_friend:hover {
+    text-decoration: underline;
+}
+
+//Диалоги
+
+#dialog_functions p{
+	color:#fff;
+	margin:10px 0px 0px 7px;
+	font-size:20px;
+	position:absolute;
+}
+
+#user {
+	width:10%;
+	height:70px;
+	border-radius:5px;
+	float:left;
+	margin:10px 0px;
+}
+
+#text {
+	width:85%;
+	height:60px;
+	float:right;
+	margin:10px 0px;
+        background: #e6e6e6;
+        padding: 5px;
+        outline:none;
+        cursor: text;
+        border-radius:5px;
+        box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+        overflow-y: auto;
+        overflow-x: hidden;
+        color:#555;
+}
+
+
+#text:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 10px solid #e6e6e6;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    margin: 5px -15px;
+}
+
+#material {
+	width:95%;
+	float:right;
+	clear:both;
+}
+
+#message_input {
+	background:#fff;
+        overflow: hidden;
+        border-bottom: 2px solid #f2f2f3;
+        padding-bottom: 10px;
+}
+
+#message_input_button {
+        text-align:center;
+        background: transparent;
+        border: none;
+        float:right;
+        color:#2f7db4;
+        font-size:12px;
+        border-bottom: 1px solid #2f7db4;
+}
+
+#text_meter {
+    font-size: 12px;
+    margin: 0px;
+    float: left;
+}
+
+#message_input_center {
+    width: 90%;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#messages {
+	width:90%;
+        min-height: 10px;
+	background:#fff;
+        position: relative;
+        overflow: hidden;
+        margin: 0px auto;
+}
+
+#scroll_buttom {
+	width:10px;
+	background:#d3d3d3;
+	border-top:solid 1px #949494;
+	border-bottom:solid 1px #949494;
+}
+
+.user {
+	width:10%;
+	height:75px;
+	background:#000;
+	border-radius:5px;
+	float:left;
+	text-align: left;
+        overflow: hidden;
+}
+
+.user_name {
+	width:99%;
+	margin:0px auto;
+	overflow: hidden;
+        text-shadow: 0px 0px #fff;
+}
+
+.user_name p {
+	margin:0px;
+	color:#585858;
+	font-size:12px;
+        font-weight: bold;
+}
+
+.text {
+        width:85%;
+        float:right;
+        background:#ececec;
+        padding:10px;
+        border-radius:5px;
+        box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+        margin: 0px;
+        text-align: justify;
+}
+
+.text:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 10px solid #ececec;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    margin: 0px 0px 0px -20px;
+}
+
+.text a {
+    color: #2f7db4;
+}
+
+.text a:active {
+    color: #499ad3;
+}
+
+.text a:visited {
+    color: #b2562d;
+}
+
+.text span {
+    word-wrap: break-word;
+    color:#585858;
+    font-family: verdana,arial;
+    font-size: 15px;
+}
+
+.messages {
+	width:90%;
+	margin:10px auto;
+        text-shadow: 0px 1px #fff;
+        color:#3d3d3d;
+        clear: both;
+        overflow: hidden;
+}
+
+#dialog_403 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+    color: #aaa;
+}
+
+/*PROFILE WINDOW*/
+
+#profile_window {
+    top: 0px; 
+    bottom: 0px; 
+    left: 0px; 
+    width: 203px; 
+    float:left; 
+    position:fixed; 
+    background:#f5f5f5;
+    z-index:12;
+    overflow-y: scroll;
+    overflow-x: visible;
+}
+
+#profile_window::-webkit-scrollbar{
+    width:3px;
+    background: transparent;
+}
+
+#profile_window::-webkit-scrollbar-thumb{
+    background-color: #c9c9c9;
+    //border-radius: 7px;
+    border: none;
+}
+
+#profile_window::-webkit-scrollbar-track{
+    border-width:0;
+    background: #c9c9c9;
+}
+
+.open_window {
+    left: 0px;
+}
+
+.close_window {
+    left: 200px;
+}
+
+#profile_avatar {
+	width:50px;
+	height:50px;
+	margin-left:10px;
+	overflow:hidden;
+	border-radius:80px;
+	border:2px solid #f5f5f5;
+        box-shadow: 1px 1px 0px rgba(100,100,100,.3),
+            -1px -1px 0px rgba(100,100,100,.3),
+            -1px 1px 0px rgba(100,100,100,.3),
+            1px -1px 0px rgba(100,100,100,.3);
+        cursor:pointer;
+}
+
+#profile_avatar_upload {
+    width: 100%;
+    background: #d1d1d1;
+    float: left;
+    margin-bottom:8px;
+}
+
+.profile_avatar_upload {
+    width: 25%;
+    height: 30px;
+    background: #fff;
+    position:relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 0px;
+    float: left;
+    box-shadow: inset 1px 0px 0px rgba(0,0,0,.1);
+}
+.profile_avatar_upload:nth-child(2) {
+    background: #fff url('../img/system_icon/upload_open.png') no-repeat center;
+}
+
+#profile_rating_bar {
+    width:172px;
+    margin:0px auto 15px auto;
+    overflow:hidden;
+    color:#4d4d4d;
+    font-size:14px;
+    font-weight: bold;
+    clear: both;
+}
+
+#profile_rating_bar_progres {
+	width:172px;
+	height:10px;
+	background:#616161;
+}
+
+#profile_rating_bar_bac {
+	width:172px;
+	height:10px;
+	position:fixed;
+}
+
+#profile_rating_bar_progres_bac {
+	width:0px;
+	height:10px;
+	background:#57be7b;
+	margin:0px auto;
+	float:left;
+}
+
+#profile_menu {
+        margin: 0px auto;
+        clear: both;
+        padding-bottom: 30px;
+        overflow: visible;
+}
+
+.profile_menu_button {
+	width:172px;
+	height:30px;
+	margin:3px auto;
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+        background: #fff;
+        cursor: pointer;
+        border-radius: 3px;
+        position: relative;
+        overflow: visible;
+        color: #555;
+}
+
+.profile_menu_button:hover {
+    color:#2f7db4;
+}
+
+#profile_menu .profile_menu_button_tr:after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-right: 13px solid #c9c9c9;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin: 6px 0px 0px 0px;
+    right: -14px;
+}
+
+.profile_menu_button p {
+    margin: 7px 0px 0px 10px;
+    font-weight: bold;
+    float:left;
+    font-size: 14px;
+}
+
+#profile_menu_button_icon {
+	width:30px;
+	height:30px;
+	float:left;
+        background: #fff no-repeat center url('../img/system_icon/profile_icons.png');
+        margin: 0px 0px 0px 5px;
+}
+
+#profile_menu_metr {
+	min-width:15px;
+	height:15px;
+	background:#e15555;
+	border-radius:2px 2px 2px 2px;
+	float:right;
+	position:relative;
+	right:8px;
+        margin: -10px 0px 0px 0px;
+	font-size:12px;
+	color:#FFF;
+	text-shadow:#000;
+	text-align:center;
+	padding:2px;
+	cursor:pointer;
+        z-index: 3;
+        display: none;
+        font-weight: bold;
+}
+
+#wdng_rollup {
+    max-height: 150px;
+    margin: 30px 0px 0px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#wdng_rollup::-webkit-scrollbar{
+    width:6px;
+    background: transparent;
+}
+
+#wdng_rollup::-webkit-scrollbar-thumb{
+    background: #d0d0d0;
+    border-radius: 0px;
+    border: 1px solid #d9d9d9;
+}
+
+#wdng_rollup::-webkit-scrollbar-track{
+    border-width:0;
+    background: #f2f2f2;
+}
+
+
+.wdng_rollup_pn {
+    height: 30px;
+    background: #d9d9d9;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.wdng_rollup_pn:hover {
+    background: #ccc;
+}
+
+.wdng_rollup_pn p {
+    margin: 7px 5px;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color:#555;
+    text-shadow: 1px 1px 0px rgba(255,255,255,.4);
+}
+
+/*ОНЛАЙН---------------------------------------*/
+
+#user_action {
+    height:30px;
+    float: right;
+    margin: 10px 15px 0px;
+    
+}
+
+.user_action{
+	width:30px;
+	height:30px;
+	float:left;
+	cursor:pointer;
+        background: #fff;
+        border-right: 1px solid #f5f5f5;
+        position: relative;
+}
+
+.user_action_tr:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #c2c2c2;
+    border-bottom: 8px solid transparent;
+    top: 0px;
+    left: 0px;
+}
+
+#exit {
+	width:30px;
+	height:30px;
+	float:left;
+	cursor:pointer;
+        background: #fff url('../img/system_icon/exit.png') no-repeat center;
+}
+
+.profile_co {
+    margin: 0px;
+}
+
+#profile_close {
+    	width:25%;
+	height:30px;
+        float: right;
+        background: #c9c9c9 url(../img/system_icon/profile_open.png) no-repeat center;
+        cursor: pointer;
+        position: relative;
+        margin: 0px;
+}
+
+#profile_open {
+    	width:40px;
+	height:30px;
+        top: 0px;
+        left: 0px;
+        background: #c9c9c9 url(../img/system_icon/profile_open.png) no-repeat center;
+        cursor: pointer;
+        position: absolute;
+        z-index: 11;
+}
+
+/* jquery.Jcrop.css v0.9.12 - MIT License */
+/*
+  The outer-most container in a typical Jcrop instance
+  If you are having difficulty with formatting related to styles
+  on a parent element, place any fixes here or in a like selector
+
+  You can also style this element if you want to add a border, etc
+  A better method for styling can be seen below with .jcrop-light
+  (Add a class to the holder and style elements for that extended class)
+*/
+.jcrop-holder {
+  direction: ltr;
+  text-align: left;
+  margin: 0px auto;
+}
+/* Selection Border */
+.jcrop-vline,
+.jcrop-hline {
+  background: #ffffff;
+  font-size: 0;
+  position: absolute;
+}
+.jcrop-vline {
+  height: 100%;
+  width: 1px !important;
+}
+.jcrop-vline.right {
+  right: 0;
+}
+.jcrop-hline {
+  height: 1px !important;
+  width: 100%;
+}
+.jcrop-hline.bottom {
+  bottom: 0;
+}
+/* Invisible click targets */
+.jcrop-tracker {
+  height: 100%;
+  width: 100%;
+  /* "turn off" link highlight */
+  -webkit-tap-highlight-color: transparent;
+  /* disable callout, image save panel */
+  -webkit-touch-callout: none;
+  /* disable cut copy paste */
+  -webkit-user-select: none;
+}
+/* Selection Handles */
+.jcrop-handle {
+  background-color: #333333;
+  border: 1px #eeeeee solid;
+  width: 7px;
+  height: 7px;
+  font-size: 1px;
+}
+.jcrop-handle.ord-n {
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -4px;
+  top: 0;
+}
+.jcrop-handle.ord-s {
+  bottom: 0;
+  left: 50%;
+  margin-bottom: -4px;
+  margin-left: -4px;
+}
+.jcrop-handle.ord-e {
+  margin-right: -4px;
+  margin-top: -4px;
+  right: 0;
+  top: 50%;
+}
+.jcrop-handle.ord-w {
+  left: 0;
+  margin-left: -4px;
+  margin-top: -4px;
+  top: 50%;
+}
+.jcrop-handle.ord-nw {
+  left: 0;
+  margin-left: -4px;
+  margin-top: -4px;
+  top: 0;
+}
+.jcrop-handle.ord-ne {
+  margin-right: -4px;
+  margin-top: -4px;
+  right: 0;
+  top: 0;
+}
+.jcrop-handle.ord-se {
+  bottom: 0;
+  margin-bottom: -4px;
+  margin-right: -4px;
+  right: 0;
+}
+.jcrop-handle.ord-sw {
+  bottom: 0;
+  left: 0;
+  margin-bottom: -4px;
+  margin-left: -4px;
+}
+/* Dragbars */
+.jcrop-dragbar.ord-n,
+.jcrop-dragbar.ord-s {
+  height: 7px;
+  width: 100%;
+}
+.jcrop-dragbar.ord-e,
+.jcrop-dragbar.ord-w {
+  height: 100%;
+  width: 7px;
+}
+.jcrop-dragbar.ord-n {
+  margin-top: -4px;
+}
+.jcrop-dragbar.ord-s {
+  bottom: 0;
+  margin-bottom: -4px;
+}
+.jcrop-dragbar.ord-e {
+  margin-right: -4px;
+  right: 0;
+}
+.jcrop-dragbar.ord-w {
+  margin-left: -4px;
+}
+/* The "jcrop-light" class/extension */
+.jcrop-light .jcrop-vline,
+.jcrop-light .jcrop-hline {
+  background: #ffffff;
+  filter: alpha(opacity=70) !important;
+  opacity: .70!important;
+}
+.jcrop-light .jcrop-handle {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #000000;
+  border-color: #ffffff;
+  border-radius: 3px;
+}
+/* The "jcrop-dark" class/extension */
+.jcrop-dark .jcrop-vline,
+.jcrop-dark .jcrop-hline {
+  background: #000000;
+  filter: alpha(opacity=70) !important;
+  opacity: 0.7 !important;
+}
+.jcrop-dark .jcrop-handle {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #ffffff;
+  border-color: #000000;
+  border-radius: 3px;
+}
+/* Simple macro to turn off the antlines */
+.solid-line .jcrop-vline,
+.solid-line .jcrop-hline {
+  background: #ffffff;
+}
+/* Fix for twitter bootstrap et al. */
+.jcrop-holder img,
+img.jcrop-preview {
+  max-width: none;
+}
+
+/*ОКНО ЗАГРУЗКИ*/
+
+#up {
+        width:640px;
+        background:#fff;
+        color: #929292;
+        border-radius:10px;
+        margin: 37px 50px;
+        text-align: center;
+        position: fixed;
+        z-index: 100;
+        border: 3px solid #c9c9c9;
+        box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+        display: none;
+}
+
+#up:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid #c9c9c9;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin: -15px 0px 0px 13px;
+}
+
+#up p {
+        position: relative;
+        top: 20px;
+}
+
+#up input {
+        width: 210px;
+        margin: 20px auto;
+}
+
+//Картинка
+
+#img_container {
+	width:640px;
+        text-align: center;
+	color:#fff;
+	overflow:hidden;
+        border-radius:0px 0px 10px 10px;
+        display: none;
+}
+
+#pre_hiden {
+        background:#000;
+}
+
+#startupload {
+    display:none;
+}
+
+#startupload button {
+   height: 30px;
+   background:#5bbde6;
+   border:none;
+   border-radius:3px;
+   color: #fff;
+   font-weight: bold;
+   font-size: 25px;
+   cursor: pointer;
+   margin: 5px 0px 10px 0px;
+}
+
+/*ЛОАДБАР*/
+#loadbar_box {
+    width: 640px;
+    text-align: center;
+}
+
+#loadbar_plane {
+    width: 640px;
+    height: 5px;
+    overflow: hidden;
+}
+
+#loadbar_progress_plane{
+    width: 0%;
+    height: 10px;
+    background: #3d9ca8;
+    float: left;
+}

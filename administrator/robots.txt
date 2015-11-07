@@ -1,0 +1,10 @@
+user-agent: Yandex
+Disallow: /
+Host: subscribeonme.ru
+
+user-agent: Googlebot
+Disallow: /
+Host: subscribeonme.ru
+
+User-agent: *
+Disallow: /

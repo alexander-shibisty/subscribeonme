@@ -1,0 +1,28 @@
+AddDefaultCharset utf-8
+AddCharset utf-8 *
+
+<IfModule mod_charset.c>
+CharsetSourceEnc utf-8
+CharsetDefault utf-8
+</IfModule>
+
+<files .htaccess="">
+order allow,deny
+deny from all
+</files>
+
+ErrorDocument 403 http://site/403.html
+ErrorDocument 404 http://site/404.html
+ErrorDocument 500 http://site/500.html
+ErrorDocument 503 http://site/503.html
+ErrorDocument 502 http://site/502.html
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !-f
+RewriteRule ^(?:ae|as|au|be|cm|dg|ie|lr|ma|mi|ml|mm|mn|ms|mu|mv|pe|pl|rn|rs|sp|sm|st|vo|hm)=?(?:\w+)?.*?$ / [NC,L]
+RewriteRule ^(\w+){3,}$ / [NC]
+RewriteRule ^index\.php$ / [QSA,R]
+
+
